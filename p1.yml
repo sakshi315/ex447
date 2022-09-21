@@ -1,0 +1,7 @@
+- name: create p1 plays
+  hosts: dev
+  tasks:
+          - name: install haproxy
+            yum:
+                    name: haproxy
+                    state: installed
