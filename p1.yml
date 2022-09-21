@@ -1,5 +1,5 @@
 - name: create p1 plays
-  hosts: dev
+  hosts: localhost
   tasks:
           - name: install haproxy
             yum:
