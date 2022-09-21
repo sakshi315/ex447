@@ -1,5 +1,5 @@
 - name: create p1 plays
-  hosts: localhost
+  hosts: loadbalancers
   become: true
   tasks:
           - name: install haproxy
